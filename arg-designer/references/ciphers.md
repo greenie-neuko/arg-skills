@@ -77,9 +77,29 @@ Complete reference for ciphers commonly used in ARGs, organized by difficulty.
 - Visual, works in images/drawings
 - Freemason association for historical narratives
 
+### Polybius Square
+**5x5 grid coordinates**
+- Letters → two-digit numbers (row, column)
+- A=11, B=12, C=13... Z=55
+- Basis for many other ciphers (ADFGX, Nihilist)
+- Tools: dcode.fr/polybius-cipher
+
+### Semaphore/Flag Codes
+**Two flag positions = letter**
+- Visual cipher using arm/flag angles
+- Naval/military narrative connections
+- Can appear in images or video
+
 ---
 
 ## Difficulty 3: Advanced
+
+### Baconian Cipher
+**5-bit binary in typography**
+- Each letter = 5-character A/B pattern (AAAAB, AABAA...)
+- Hidden in font variations (bold/italic, serif/sans)
+- 24-letter alphabet (I=J, U=V)
+- Steganographic: invisible until analyzed
 
 ### Playfair Cipher
 **5x5 grid, digraph substitution**
@@ -146,6 +166,25 @@ Complete reference for ciphers commonly used in ARGs, organized by difficulty.
 - ARG-specific invented systems
 - Requires discovery of encoding method
 - "Cicada 3301" style novel cryptography
+
+### Homophonic Cipher
+**Multiple symbols per letter**
+- High-frequency letters (E, T, A) have 3+ symbols
+- Resists frequency analysis
+- Requires frequency-flattened substitution table
+
+### Gematria Primus (Cicada 3301)
+**Runic numerology system**
+- Custom letter-to-number mapping
+- Based on Anglo-Saxon runes
+- Unique to Cicada puzzles but instructive
+
+### XOR Cipher
+**Bitwise exclusive-or operation**
+- Message XOR key = ciphertext
+- Ciphertext XOR key = message (reversible)
+- Foundation of stream ciphers
+- Digital implementation: `bytes([a ^ b for a, b in zip(msg, key)])`
 
 ---
 
@@ -228,3 +267,31 @@ For chain `A → B → C`:
 | Numbers in pairs (11-55) | Polybius/Nihilist |
 | Repeating pattern length | Vigenère (key length) |
 | Random appearance, equal frequency | Strong substitution |
+
+---
+
+## Recommended Tools
+
+### Primary Cipher Tools
+
+| Tool | Best For | URL |
+|------|----------|-----|
+| **dCode.fr** | 900+ ciphers, auto-identification | dcode.fr |
+| **CyberChef** | Cipher chaining, data transforms | gchq.github.io/CyberChef |
+| **Boxentriq** | Visual puzzles, cipher guides | boxentriq.com |
+
+### Specialized Tools
+
+| Tool | Purpose |
+|------|---------|
+| **Binwalk** | Extract hidden files from images |
+| **zsteg** | PNG/BMP LSB steganography detection |
+| **Steghide** | Hide/extract data with AES encryption |
+| **ExifTool** | Read/write file metadata |
+| **Sonic Visualizer** | Audio spectrogram analysis |
+
+### Online Resources
+
+- **ARG Toolbox** (Game Detectives Wiki): Curated ARG-specific tools
+- **Cipher Identifier** (dCode): Auto-recognize 200+ cipher types
+- **CrackStation**: Hash lookup database

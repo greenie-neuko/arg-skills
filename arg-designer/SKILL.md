@@ -75,10 +75,11 @@ See complete examples: `references/recipes.md`
 - `spectrogram.py` - Convert images/text to audio spectrograms
 
 ### references/
-- `ciphers.md` - Complete cipher reference with implementations
+- `ciphers.md` - 30+ cipher types with implementations and tools
 - `hiding-methods.md` - 60+ techniques by content type
 - `trailheads.md` - 40+ entry point patterns
 - `connectors.md` - Puzzle linking methods
 - `platforms.md` - Platform setup guides
-- `design-principles.md` - TINAG, Crimes Against Mimesis, narrative theory
-- `recipes.md` - Complete puzzle chains from famous ARGs
+- `design-principles.md` - TINAG, Crimes Against Mimesis, puppetmaster role, player types, pacing
+- `meta-puzzles.md` - Meta-puzzle structures, gating mechanics, puzzle hunt architecture
+- `recipes.md` - Complete puzzle chains from famous ARGs (I Love Bees, Cicada 3301, Year Zero)

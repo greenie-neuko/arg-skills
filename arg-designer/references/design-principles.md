@@ -289,6 +289,112 @@ Points that ground players in the story.
 
 ---
 
+## The Puppetmaster Role
+
+Puppetmasters (PMs) serve as simultaneous ally and adversary—creating obstacles while providing resources for overcoming them.
+
+### Core Functions
+1. Create obstacles and challenges
+2. Provide resources for overcoming them
+3. Remain behind the curtain
+4. Adapt in real-time to player actions
+
+### Real-Time Adaptation (The Beast Model)
+
+From Elan Lee's postmortem:
+- Puzzles expected to take days were solved in hours
+- The Cloudmakers community forced constant new content creation
+- Unimportant characters (Red King) were promoted to main roles based on player enthusiasm
+- Designers had to scramble adding content mid-game
+
+### Adaptation Framework
+1. Build foundation narrative with intentional "white space"
+2. Create multiple possible subplot branches
+3. Monitor community forums constantly
+4. Identify patterns in player capability and interest
+5. Dynamically adjust puzzle difficulty
+6. Add content without breaking established coherence
+
+### The Listening Paradox
+PMs remain invisible but constantly listen to communities, responding through the game world itself—a form of indirect dialogue.
+
+---
+
+## Player Types
+
+Research identifies distinct ARG player motivations (DiGRA studies).
+
+### Primary Types
+
+| Type | Motivation | Contribution |
+|------|------------|--------------|
+| **Organizers** | Coordinate efforts | Lead community, manage information flow |
+| **Hunters** | Find information | Discover trailheads, gather raw data |
+| **Detectives** | Reason about narrative | Synthesize meaning, develop theories |
+| **Hackers** | Technical solving | Break codes, analyze files, reverse engineer |
+| **Collaborators** | Social engagement | Build community, help newcomers |
+| **Audience** | Observe progress | Lurk, occasionally contribute insights |
+
+### Design Implications
+- Provide tasks appealing to each player type
+- Don't require all types for core progression
+- Allow specialization within community
+- Create roles that feel valuable and recognized
+
+---
+
+## Difficulty & Pacing
+
+### Difficulty Curve Models
+
+**Linear**: `difficulty = base + (progress × rate)`
+- Proportional increase throughout
+- Pro: Predictable progression
+- Con: Can become tedious without variety
+
+**Wave** (Sine/Sawtooth): `difficulty = base + amplitude × wave(progress)`
+- Oscillating pattern with peaks and valleys
+- Pro: Maintains interest through variety
+- Con: May feel inconsistent
+
+**Plateau** (Logarithmic): `difficulty = max × (1 - e^(-progress × rate))`
+- Increases then stabilizes at ceiling
+- Pro: Prevents impossible late-game difficulty
+- Con: Late stages may feel stagnant
+
+### The Flow State Sweet Spot
+Challenge slightly higher than current skill = engagement.
+- Too hard → frustration, abandonment
+- Too easy → boredom, disengagement
+
+### Hint System Patterns
+
+**Progressive Hints** (Professor Layton model):
+1. Gentle nudge (guide thinking pattern)
+2. Stronger hint (narrow possibilities)
+3. Near-solution (without full spoiler)
+
+**Cost-Based Hints**: Hints cost in-game resources, preventing "looking ahead"
+
+**Auto-Appearing Hints**: Trigger after time threshold, respecting players who want to struggle
+
+### Time-Gating Strategies
+- Gate content behind temporal triggers
+- Scheduled reveals build anticipation
+- Prevents content exhaustion
+- Enables live event coordination
+
+### Fatigue Prevention
+- Mini-goals and milestone rewards
+- Balance intensity with rest moments
+- Chapter structures with climax/closure
+- Session length awareness:
+  - Casual: 7-10 minute sessions
+  - Dedicated: 30-60 minute sessions
+  - Hardcore: Multi-hour deep dives
+
+---
+
 ## Community Dynamics
 
 How player communities form and function around ARGs.
